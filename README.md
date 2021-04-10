@@ -13,7 +13,7 @@ Next.js blogging template for Netlify has already implemented these standard fea
 
 Deploy on your environment by clicking here:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/wutali/nextjs-netlify-blog-template&stack=cms)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/karan/nextjs-netlify-blog-template&stack=cms)
 
 Or access the following demo site:
 
@@ -41,7 +41,7 @@ To create your blog using the template, open your terminal, `cd` into the direct
 and run the following command:
 
 ```
-npx create-next-app your-blog --example "https://github.com/wutali/nextjs-netlify-blog-template"
+npx create-next-app your-blog --example "https://github.com/karan/nextjs-netlify-blog-template"
 ```
 
 After that, set up your project as following the Netlify blog:
