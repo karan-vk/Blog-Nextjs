@@ -1,4 +1,6 @@
-module.exports = ({
+const withPWA = require("next-pwa");
+const runtimeCaching = require("next-pwa/cache");
+module.exports = withPWA({
   pageExtensions: ["tsx"],
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.module.rules.push(
@@ -15,5 +17,9 @@ module.exports = ({
       ]
     );
     return config;
+  },
+  pwa: {
+    dest: "public",
+    // runtimeCaching,
   },
 });
