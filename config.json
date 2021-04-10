@@ -1,16 +1,28 @@
 {
-  "base_url": "https://reverent-heyrovsky-8459d2.netlify.app/",
-  "site_title": "Next.js Netlify Blog",
-  "site_description": "Next.js blog template for Netlify",
+  "base_url": "https://rusting.ml/",
+  "site_title": "Rusting Blog",
+  "site_description": "'Go'ing with a 'Rust'ing life",
   "site_keywords": [
     {
-      "keyword": "Next.js"
-    },
-    {
-      "keyword": "Netlify"
+      "keyword": "Svelte"
     },
     {
       "keyword": "React"
+    },
+    {
+      "keyword": "Rust"
+    },
+    {
+      "keyword": "Golang"
+    },
+    {
+      "keyword": "Life"
+    },
+    {
+      "keyword": "Philosopy"
+    },
+    {
+      "keyword": "programming"
     }
   ],
   "posts_per_page": 5,
